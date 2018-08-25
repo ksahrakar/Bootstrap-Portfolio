@@ -12,6 +12,10 @@
     color: #cccccc;
 }
 
+.bg-light{
+    background-color: #ffffff !important;
+}
+
 .navbar-brand{
     background-color: #4aaaa5;
     font-size: 26px;
@@ -21,11 +25,11 @@
     color: #ffffff;
     margin-right: 0%;
     height: 100%;
-    padding: 0;
 }
 
 body{
     background-image: url('images/textured_paper.png');
+    margin-bottom: 60px;
 }
 
 .aboutContent{
@@ -74,6 +78,77 @@ a:not([href]):not([tabindex]) {
 }
 
 .contentHolder{
-    width: 980px;
+    width: 960px;
     margin: auto!important;
+}
+
+.footer {
+    position: fixed;
+    bottom:0;
+    width: 100%;
+    height: 43px; /* Set the fixed height of the footer here */
+    background-color: #666;
+    line-height: 43px;
+    color: #fff;
+    border-top: 4px solid #4aaaa5;
+    text-align: center;
+  }
+
+/* Contact Page css */
+
+.paras2{
+    margin: 0 15px 0 15px; 
+}
+
+textarea{
+    margin: 5px 0 15px 15px;
+}
+
+textarea:placeholder-shown{
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 14px;
+    opacity: 0.7;
+    background-color: #d8eeed;
+}
+
+.clearfix::after{
+    content:"";
+    clear: both;
+    display: table;
+}
+
+.projectList{
+    list-style-type: none;
+    border: none;
+    float: left;
+    padding: 5px;
+    margin: 10px;
+    height: auto;
+}
+
+.itemBox{
+    position: relative;
+    float:left;
+    margin: 15px 15px 0 0;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+.label{
+    position: absolute;
+    background-color: #4aaaa5;
+    font-size: 22px;
+    color: #ffffff;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px;
+    padding: 9px;
+    bottom: 5px
+}
+
+.navbar-toggler{
+    border-radius: 0;
+}
+
+.navbar-light .navbar-toggler{
+    border-color: #ffffff;
 }
